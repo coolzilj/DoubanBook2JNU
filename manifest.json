@@ -1,16 +1,17 @@
 {
-	"name": "DoubanMovie2An80",
+	"name": "DoubanBook2JNU",
 	"version": "1.0",
-	"description": "Show An80 link in douban movie",
+	"description": "Show JNU library link in douban book",
 	"content_scripts": [{
-		"matches": ["http://movie.douban.com/*"],
-		"js": ["js/jquery.js","js/db2an80.js"]
+		"matches": ["http://book.douban.com/*"],
+		"js": ["js/jquery.js","js/db2jnu.js"]
 	}],
 	"permissions": [
-		"tabs", "http://www.an80.com/*"
+		"tabs", "http://202.116.13.244/*"
 	],
 	"icons": {
 		"48": "icon.png",
 		"128": "icon.png"
-	}
+	},
+	"manifest_version": 2
 }
